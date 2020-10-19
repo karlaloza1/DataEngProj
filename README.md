@@ -1,1 +1,3 @@
 # DataEngProj
+
+I wanted to learn more about creation of data pipelines and the ETL process. The goal of the project is to have a data pipeline with the top 20 songs I have listened for a period of time. The script will collect the songs for the day before. The first part of the project is Extraction, I extract the data from the Spotify API and created a DataFrame to store of all the data. Later, I transformed the data by checking for empty files, null values, statuses data and duplicated. Then, I loaded the data to SQLite on DBeaver. The next step for the project is to automate the token generation from the Spotify API. 
